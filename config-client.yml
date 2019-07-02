@@ -1,2 +1,10 @@
-info:
-	profile:default
+spring:
+  application:
+    name: config-serverxxxxxxxxxxxxxx
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/yimapingchuan1/springcloud-configxxxxxxxxxxx
+server:
+  port: 1200

@@ -1,10 +1,2 @@
-spring:
-  application:
-    name: config-test
-  cloud:
-    config:
-      server:
-        git:
-          uri: xxx
 server:
   port: 1301
